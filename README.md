@@ -1,10 +1,3 @@
-Here's a `README.md` file you can use for your Sales Forecasting Project on GitHub:
-
-```markdown
-To create a `README.md` without the asterisk format, here’s the content:
-
----
-
 ## Sales Forecasting Project
 
 ## Overview
