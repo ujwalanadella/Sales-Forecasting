@@ -1,6 +1,10 @@
 Here's a `README.md` file you can use for your Sales Forecasting Project on GitHub:
 
 ```markdown
+To create a `README.md` without the asterisk format, here’s the content:
+
+---
+
 # Sales Forecasting Project
 
 ## Overview
@@ -8,27 +12,31 @@ This project involves data analysis and visualization to understand and predict 
 
 ## Datasets
 The project utilizes multiple datasets:
-- **train.csv**: Contains historical sales data.
-- **test.csv**: Contains data for predicting future sales.
-- **oil.csv**: Contains daily oil prices, which may impact sales.
-- **stores.csv**: Provides information about different stores.
-- **transactions.csv**: Contains transaction data for each store.
-- **holidays_events.csv**: Lists holidays and events that may affect sales.
-- **sample_submission.csv**: A sample file to format your submission for the competition.
+- train.csv: Contains historical sales data.
+- test.csv: Contains data for predicting future sales.
+- oil.csv: Contains daily oil prices, which may impact sales.
+- stores.csv: Provides information about different stores.
+- transactions.csv: Contains transaction data for each store.
+- holidays_events.csv: Lists holidays and events that may affect sales.
+- sample_submission.csv: A sample file to format your submission for the competition.
 
 ## Libraries Used
 The following Python libraries are used in this project:
-- `numpy`
-- `pandas`
-- `seaborn`
-- `matplotlib`
-- `polars`
-- `scikit-learn`
+- numpy
+- pandas
+- seaborn
+- matplotlib
+- polars
+- scikit-learn
 
 To install the required libraries, run the following command:
 ```bash
 pip install numpy pandas seaborn matplotlib polars scikit-learn
 ```
+
+---
+
+This version is the same as before, just without using asterisks around the dataset names and library names.
 
 ## Data Loading
 The data is loaded using `pandas`. Here's how you can load the datasets:
