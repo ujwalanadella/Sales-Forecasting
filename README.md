@@ -5,7 +5,7 @@ To create a `README.md` without the asterisk format, here’s the content:
 
 ---
 
-# Sales Forecasting Project
+## Sales Forecasting Project
 
 ## Overview
 This project involves data analysis and visualization to understand and predict sales trends for a retail company. The goal is to leverage historical sales data along with other relevant datasets, such as oil prices and holidays, to build a model that can forecast future sales.
