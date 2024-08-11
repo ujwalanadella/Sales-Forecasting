@@ -1,32 +1,34 @@
-# Sales Forecasting Project
+# Sales Forecasting
 
 ## Overview
-This project aims to predict sales for a retail company by analyzing historical sales data, oil prices, store information, holidays, and transaction records. The project is implemented using a Jupyter Notebook with a focus on data preprocessing, feature engineering, and machine learning model development.
+This project aims to predict sales trends for a retail company using historical data and external factors like oil prices and holidays.
 
-## Datasets
-- **holidays_events.csv**: Information on holidays and events.
-- **oil.csv**: Daily oil prices.
-- **stores.csv**: Store information.
-- **test.csv**: Data for predicting future sales.
-- **transactions.csv**: Store transaction data.
+## Project Structure
+- **Sales forecasting.ipynb**: Contains the code for data analysis, visualization, and model building.
+- **holidays_events.csv**: Dataset with holidays and events information.
+- **oil.csv**: Contains daily oil prices, which might impact sales.
+- **stores.csv**: Provides metadata about the stores.
+- **test.csv**: Test dataset for predictions.
+- **transactions.csv**: Transaction data across different stores.
 
-## Usage
+## Getting Started
 1. Clone the repository:
-    ```bash
-    git clone https://github.com/ujwalanadella/Sales-Forecasting.git
-    ```
-2. Open `Sales forecasting.ipynb` in Jupyter Notebook to explore the analysis and model development.
+   ```bash
+   git clone https://github.com/ujwalanadella/Sales-Forecasting.git
+   ```
+2. Install necessary dependencies (e.g., `pandas`, `numpy`, `scikit-learn`).
+3. Explore the `Sales forecasting.ipynb` for data processing and modeling steps.
 
-## Dependencies
-- Python 3.x
-- Jupyter Notebook
-- Libraries: pandas, numpy, scikit-learn, matplotlib, seaborn
+## Data Sources
+- **Train and Test data**: Historical sales data.
+- **Oil prices**: Impact of oil prices on sales.
+- **Holidays and Events**: Influence of holidays on sales.
+- **Stores**: Store metadata.
+- **Transactions**: Transactional data per store.
+
+## Model Building
+Details on the preprocessing, feature engineering, model training, and evaluation steps are documented in the Jupyter notebook.
 
 ## Results
-The notebook includes various visualizations and model evaluation metrics used to predict sales trends effectively.
+Analysis of the sales data, visualizations, and model performance metrics can be reviewed in the notebook.
 
-## Contributing
-Feel free to fork the repository, make modifications, and submit a pull request.
-```
-
-This `README.md` file provides an overview of the project, including its purpose, datasets used, and instructions on how to use the code. It also mentions dependencies and encourages contributions.
